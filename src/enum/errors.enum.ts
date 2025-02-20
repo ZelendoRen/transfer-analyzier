@@ -1,0 +1,15 @@
+export enum Errors {
+  DataBase = 'DataBase processing error',
+  BlockChain = 'BlockChain processing error',
+  Analyzer = 'Analyzer processing error',
+  Config = 'Config processing error',
+  Service = 'Service processing error',
+  Controller = 'Controller processing error',
+  Module = 'Module processing error',
+  App = 'App processing error',
+  TimestampCron = 'Timestamp cron processing error',
+  RPCErrors = 'Error while processing RPC request',
+  FormatinLogError = 'Error while formatting log',
+  NoData = 'No data found',
+  GetLogs = 'Error while getting logs from blockchain',
+}
